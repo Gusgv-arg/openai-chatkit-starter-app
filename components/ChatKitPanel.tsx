@@ -359,10 +359,10 @@ export function ChatKitPanel({
         fallbackMessage={
           blockingError || !isInitializingSession
             ? null
-            : "Loading assistant session..."
+            : "Cargando sesión..."
         }
         onRetry={blockingError && errors.retryable ? handleResetChat : null}
-        retryLabel="Restart chat"
+        retryLabel="Comenzar chat"
       />
     </div>
   );

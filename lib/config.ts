@@ -17,8 +17,8 @@ export const STARTER_PROMPTS: StartScreenPrompt[] = [
     icon: "circle-question",
   },
   {
-    label: "¿Que podría implementar en mi negocio?",
-    prompt: "¿Que podría implementar en mi negocio?",
+    label: "¿Que podría implementar?",
+    prompt: "¿Que podría implementar en mi negocio? Enumera 3 ejemplos atractivos para distintos casos de uso",
     icon: "circle-question",
   },
 ];

@@ -7,15 +7,25 @@ export const CREATE_SESSION_ENDPOINT = "/api/create-session";
 
 export const STARTER_PROMPTS: StartScreenPrompt[] = [
   {
-    label: "¿Qué hacen en Gus-Tech?",
-    prompt: "¿Qué hacen en Gus-Tech?",
+    label: "¿Quién es el fundador de Gus-Tech?",
+    prompt: "¿Quién es el fundador de Gus-Tech?",
+    icon: "circle-question",
+  },
+  {
+    label: "¿En qué se especializan?",
+    prompt: "¿En qué se especializan?",
+    icon: "circle-question",
+  },
+  {
+    label: "¿Que podría implementar en mi negocio?",
+    prompt: "¿Que podría implementar en mi negocio?",
     icon: "circle-question",
   },
 ];
 
 export const PLACEHOLDER_INPUT = "Hacé tu pregunta...";
 
-export const GREETING = "¿Cómo te puedo ayudar?";
+export const GREETING = "¡Hola, soy el asistente de IA de Gus-tech 👋! ¿Cómo te puedo ayudar?";
 
 export const getThemeConfig = (theme: ColorScheme): ThemeOption => ({
   color: {

@@ -25,7 +25,7 @@ export const STARTER_PROMPTS: StartScreenPrompt[] = [
 
 export const PLACEHOLDER_INPUT = "Hacé tu pregunta...";
 
-export const GREETING = "¡Hola, soy el asistente de IA de Gus-tech 👋! ¿Cómo te puedo ayudar?";
+export const GREETING = "¡Hola, soy el asistente de IA de Gus-Tech 👋! ¿Cómo te puedo ayudar?";
 
 export const getThemeConfig = (theme: ColorScheme): ThemeOption => ({
   color: {
